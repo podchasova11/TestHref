@@ -25,9 +25,8 @@ pytest
 
 **Как использовать:**
 
-1.  URL сайта в `main.py`.
-2.  Запустить `main.py`.
-3.  Проверь файлы `bad_links.txt` и `canonical_errors.txt` на наличие ошибок.
-4.  Запустить тесты с помощью `pytest`.
+1.  Запустить `main.py`.
+2.  Проверь файлы `bad_links.txt` и `canonical_errors.txt` на наличие ошибок.
+3.  Запустить тесты с помощью `pytest`.
 
 
