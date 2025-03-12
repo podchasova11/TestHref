@@ -57,8 +57,8 @@ def test_is_valid_url():
     - False для некорректных URL, такие как невалидные форматы и отсутствующие схемы.  
     """  
     assert is_valid_url("https://vikunja.io/docs/installing/") is True  # Валидный HTTPS URL  
-    assert is_valid_url("http://example.com") is True  # Валидный HTTP URL  
-    assert is_valid_url("ftp://example.com") is True  # Если FTP поддерживается  
+    assert is_valid_url("http://vikunja.io/docs/installing/") is True  # Валидный HTTP URL  
+    assert is_valid_url("ftp://vikunja.io/docs/installing/") is True  # Если FTP поддерживается  
     assert is_valid_url("invalid-url") is False  # Неверный URL без схемы  
     assert is_valid_url("http:/invalid-url.com") is False  # Неверный формат URL  
     assert is_valid_url("https://") is False  # Неполный URL  
